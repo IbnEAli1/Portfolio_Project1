@@ -1,6 +1,7 @@
 'use client'
-import { FaBeer } from 'react-icons/fa';
 import { TbHandClick } from "react-icons/tb";
+import Link from 'next/link'
+
 
 const Navbar = () => {
   return (
@@ -11,12 +12,12 @@ const Navbar = () => {
       <span className="ml-3 text-xl">Portfoilo</span>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a href='/' className="mr-5 hover:text-Black-100">Home</a>
-      <a href='#' className="mr-5 hover:text-Black-100">About</a>
-      <a href='#' className="mr-5 hover:text-Black-100">Qualification</a>
-      <a href='#' className="mr-5 hover:text-Black-100">Skills</a>  
-      <a href='#' className="mr-5 hover:text-Black-100">Projects</a>
-      <a href='#' className="mr-5 hover:text-Black-100">Contact</a>
+      <Link href='/' className="mr-5 hover:text-Black-100">Home</Link>
+      <Link href='#' className="mr-5 hover:text-Black-100">About</Link>
+      <Link href='#' className="mr-5 hover:text-Black-100">Qualification</Link>
+      <Link href='#' className="mr-5 hover:text-Black-100">Skills</Link>  
+      <Link href='#' className="mr-5 hover:text-Black-100">Projects</Link>
+      <Link href='#' className="mr-5 hover:text-Black-100">Contact</Link>
     </nav>
     <a href="https://milestone1-static-resume-gamma.vercel.app/" target="_blank">
     <button className=" inline-flex items-center bg-blue-400 border-0 rounded-sm py-1 px-3 focus:outline-none hover:bg-white text-base mt-4 md:mt-0">
