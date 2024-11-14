@@ -35,7 +35,7 @@ const Hero = () => {
               loading='lazy'
               height={100}
               width={100}
-              src={'/image/abbas.jpg'}
+              src='/abbas.jpg'
             />
           </div>
         </div>
